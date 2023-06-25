@@ -121,21 +121,30 @@ body {
 .wrapper .social_media ul li {
   width: 40px;
   height: 40px;
-  /* background: linear-gradient(to right, #01a9ac, #01dbdf); */
   background: linear-gradient(to right, #048692, #0691a7);
   margin-right: 10px;
   border-radius: 15px;
   line-height: 45px;
   text-align: center;
-  /* margin-bottom: 0px; */
-}
+  }
 
 .wrapper .social_media ul li a {
   /* color: #fff; */
+  /* color: rgb(246, 244, 185); */
   color: rgb(22, 52, 52);
   display: block;
   font-size: 20px;
   /* margin-bottom: 0px; */
+}
+
+.wrapper .social_media ul li a:hover,
+.wrapper .social_media ul li:hover{
+  color: blue;
+
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #bac0a6, #a8a63b);
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 700px) {
